@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Duvan|Portfolio</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <!-- header -->
+        <header>
+            <div class="logo">
+                <h1>Duvan Rivera Perez</h1>
+                <p>Web Developer</p>
+            </div>
+            <form action="">
+                <input type="text" class="barrab" id="barrab" placeholder="Buscar">
+            </form>
+            <div id="categorias" class="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+                <a href="#">Paisajes</a>
+            </div>
+        </header>
+        <!-- fin header -->
+
+        <!-- contenido -->
+        <section class="grid" id="grid">
+
+            <!-- imagen 1 -->
+            <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="ciudades autos carros calles"
+                data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.">
+            
+                <div class="item-contenido">
+                    <img src="img/ciudad1.png" alt="ciudad1">
+                </div>
+
+            </div>
+            <!-- fin imagen 1 -->
+
+            <!-- imagen 2 -->
+            <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="persona personas mujeres"
+                data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+            ">
+            
+                <div class="item-contenido">
+                    <img src="img/persona1.png" alt="persona1">
+                </div>
+
+            </div>
+            <!-- fin imagen 2 -->
+
+            <!-- imagen 3 -->
+            <div class="item" 
+                data-categoria="naturaleza" 
+                data-etiquetas="hojas flores naturaleza "
+                data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+            ">
+            
+                <div class="item-contenido">
+                    <img src="img/naturaleza1.png" alt="naturaleza1">
+                </div>
+
+            </div>
+            <!-- fin imagen 3 -->
+
+            <!-- imagen 4 -->
+            <div class="item" 
+                data-categoria="paisajes" 
+                data-etiquetas="paisaje paisajes mar montañas "
+                data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+            ">
+            
+                <div class="item-contenido">
+                    <img src="img/paisaje1.png" alt="paisaje1">
+                </div>
+
+            </div>
+            <!-- fin imagen 4 -->
+
+            <!-- imagen 5 -->
+            <div class="item" 
+            data-categoria="paisajes" 
+            data-etiquetas="paisaje paisajes montañas nubes "
+            data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+            ">
+        
+                <div class="item-contenido">
+                    <img src="img/paisaje2.png" alt="paisaje2">
+                </div>
+
+            </div>
+        <!-- fin imagen 5 -->
+
+        <!-- imagen 6 -->
+        <div class="item" 
+            data-categoria="animales" 
+            data-etiquetas="animal animales leon leones"
+            data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+        ">
+        
+            <div class="item-contenido">
+                <img src="img/animal1.png" alt="animal1">
+            </div>
+
+        </div>
+        <!-- fin imagen 6 -->
+
+        <!-- imagen 7 -->
+        <div class="item" 
+            data-categoria="ciudades" 
+            data-etiquetas="ciudad ciudades calles paisaje nubes"
+            data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+        ">
+        
+            <div class="item-contenido">
+                <img src="img/ciudad2.png" alt="ciudad2">
+            </div>
+
+        </div>
+        <!-- fin imagen 7 -->
+
+        <!-- imagen 8 -->
+        <div class="item" 
+            data-categoria="animales" 
+            data-etiquetas="animal animales panda pandas"
+            data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+        ">
+        
+            <div class="item-contenido">
+                <img src="img/animal2.png" alt="animal2">
+            </div>
+
+        </div>
+        <!-- fin imagen 8 -->
+
+        <!-- imagen 9 -->
+        <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="persona personas mujeres"
+                data-descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem
+        ">
+        
+            <div class="item-contenido">
+                <img src="img/persona2.png" alt="persona2">
+            </div>
+
+        </div>
+        <!-- fin imagen 9 -->
+
+        </section>
+        <!-- fin contenido -->
+
+        <section class="overlay" id="overlay">
+            <div class="contenedorimg">
+                <button id="btnCerrar"><i class="fa-solid fa-circle-xmark"></i></button>
+                <img src="img/ciudad1.png" alt="ciudad1">
+                <p class="descripcion">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                </p>
+            </div>
+        </section>
+        
+    </div>
+
+    <footer class="contenedor">
+        <div class="redesSociales">
+            
+            <div class="contenedorIcono">
+                <a href="https://www.facebook.com/profile.php?id=100080670852716" target="_BLANK" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <div class="contenedorIcono">
+                <a href="https://www.instagram.com/duvanripe/" class="instagram" target="_BLANK"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="creadoPor">
+            <p>Creado por Duvan Rípe derechos reservados &copy;  </p>
+        </div>
+    </footer>
+
+    <!-- muuri -->
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/78109b946e.js" crossorigin="anonymous"></script>
+    <!-- mi js -->
+    <script src="js/app.js"></script>
+</body>
+</html>
